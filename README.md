@@ -42,7 +42,6 @@ env: This command is used to display the current environment variables. For exam
 
 source or .: These commands are used to execute a script or a file that sets environment variables. When a script is executed using one of these commands, any environment variables that are set or modified by the script will be applied to the current process. For example, to set environment variables from a script called my_script.sh, you can use the command source my_script.sh or . my_script.sh.
 These commands can be used in combination to manipulate the environment of the current process as needed.
- 
 * A function and a system call are both ways to execute a block of code in a program, but they are different in several important ways.
 
 A function is a block of code that is defined within a program and can be called from other parts of the program. Functions are used to perform specific tasks, such as computing a value or modifying a data structure, and they can be called multiple times from different parts of the program. Functions are executed within the same process that calls them, and they typically use the same memory and resources as the calling process.
@@ -90,13 +89,11 @@ int main() {
 }
 
 * In Unix-like operating systems, a process can use the wait system call to suspend its execution until one of its child processes terminates. The wait system call allows a parent process to wait for the termination of a child process and obtain information about its termination status.
-
 Here's an example of how to use the wait system call:
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <unistd.h>
-
 int main() {
     pid_t pid;
     int status;
@@ -190,7 +187,7 @@ Note that EOF is not a character or a string. It is a special value that indicat
 
 ## Authors
 + [`Faith Warima  Ng'endo `](https://github.com/Warimap/Warimap/tree/master/README.md)
-+ [`David Macharia Waweru`](https://github.com/DavidMacharia62/DavidMacharia62/tree/master/README.md) 
++ [`David Macharia Waweru`](https://github.com/DavidMacharia62/DavidMacharia62/tree/master/README.md)
 
 ---
 
